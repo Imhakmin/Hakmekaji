@@ -10,15 +10,19 @@
   width: 33%;
 }
 
-.status-bar__columns:first-child {
+.status-bar__column:first-child {
   margin-right: 5px;
 }
-.status-bar__columns:nth-child(2) {
+.status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
 }
-.status-bar__columns:last-child {
-  display: flex-end;
-  margin-right: 10px;
+.status-bar__column:last-child {
+  display: flex;
+  margin-right: 20px;
   justify-content: flex-end;
+}
+
+.status-bar__column:last-child i {
+  margin: 1px 4px;
 }

@@ -1,5 +1,5 @@
 @import "reset.css";
-@import "user-component/status-bar.css";
+@import "component/status-bar.css";
 
 body {
   color: #2e363e;
